@@ -1,0 +1,12 @@
+{
+  "bindings": [
+    {
+      "name": "myQueueItem",
+      "type": "queueTrigger",
+      "direction": "in",
+      "queueName": "issue-link-pr",
+      "connection": "compensiostorage_STORAGE"
+    }
+  ],
+  "scriptFile": "../dist/issue-link-pr/index.js"
+}

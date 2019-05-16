@@ -1,0 +1,12 @@
+{
+  "bindings": [
+    {
+      "name": "myQueueItem",
+      "type": "queueTrigger",
+      "direction": "in",
+      "queueName": "issue-closed",
+      "connection": "compensiostorage_STORAGE"
+    }
+  ],
+  "scriptFile": "../dist/issue-closed/index.js"
+}
